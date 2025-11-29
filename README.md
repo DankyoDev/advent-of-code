@@ -12,6 +12,7 @@ The binary accepts two parameters:
 | -------------- | -------------------------------------- | --------- |
 | `--year`, `-y` | Target Advent of Code year             | `-y 2024` |
 | `--day`, `-d`  | Target day (1–25). Accepts `1` or `01` | `-d 1`    |
+| `--show-time`, `-t`| Show runtime of the solution           | `-t`        |
 
 Internally, days are formatted as two digits, so both `1` and `01` work.
 
