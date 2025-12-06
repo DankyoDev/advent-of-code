@@ -12,7 +12,7 @@ fn main() {
     let args = Args::parse();
     let year = args.year.parse::<u16>().unwrap();
     let day = args.day.parse::<u8>().unwrap();
-    
+
     run_timed(args.time, || {
         if let Err(e) = years::dispatch(year, day) {
             eprintln!("Error: {}", e);
